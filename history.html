@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shohayok</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                ow: 'rgba(249, 247, 243, .96)',
+                prime1: 'rgba(45, 170, 34, 1)',
+                para_deep: 'rgb(73, 73, 73)',
+                para_light: 'rgb(115, 115, 115)'
+              },
+              fontFamily: {
+                manrope: 'manrope'
+              }
+            }
+          }
+        }
+    </script>
+
+</head>
+<body>
+    <div class="navbarbase bg-ow sticky top-0 z-10 ">
+        <div class=" navbar-upper flex justify-between gap-80 items-center my-5 mb-14  mx-40 ">
+            <div class="navbaru-1">
+                <button id="btn-blog" class="btn btn-success bg-prime1 text-stone-100 px-7 ">Blog</button>
+            </div>
+            <div class="flex  row   items-center navbaru-2">
+                <div class="navbaru-2-1">
+                    <img src="assets/shohayok (2).png" alt="" >
+                </div>
+                <div class="navbaru-2-2 font-bold">
+                    Shohayok
+                </div>
+        
+            </div>
+            <div class="flex justify-end items-center gap-2 navbaru-3 my-5">
+                <div class="navbaru-3-1">
+                    <img src="assets/coin.png" alt="" >
+                </div>
+                <div class="navbaru-3-2">
+                    5500BDT
+                </div>
+            </div>
+        
+        
+        </div>
+        
+        <div class="navbar-lower flex justify-center gap-3 mt-3">
+        
+            <div class="navbarl-1">
+                <button id="btn-donation" class="btn px-8 border-gray-400">Donation</button>
+            </div>
+            <div class="navbarl-2">
+                <button id="btn-history" class="btn btn-success bg-prime1 text-stone-100 px-7 ">History</button>
+            </div>
+        
+        </div>
+
+
+    </div>
+    <main>
+
+
+    </main>
+
+    <footer class="bg-ow p-20">
+
+    </footer>
+
+    <script src="js/history.js"></script>
+    
+</body>
+</html>
