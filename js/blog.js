@@ -2,6 +2,6 @@
 
 document.getElementById('btn-home').addEventListener('click',function(event){
     console.log('home-html-surfaced');
-    window.location.href = '/index.html';
+    window.location.href = './index.html';
 })
 
