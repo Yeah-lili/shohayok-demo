@@ -15,4 +15,3 @@ document.getElementById('btn-history').addEventListener('click',function(){
 
 })
 
-//btn px-8 border-gray-400

@@ -51,8 +51,8 @@ document.getElementById('btn-donate-now-1').addEventListener('click' , function(
     const div = document.createElement('div');
     div.classList.add('card','bg-base-100','py-10','shadow-xl','flex-col' ,'justify-items-center','text-center','space-y-1.5');
     div.innerHTML=`
-        <h4 class = "text-3xl font-bold ">${donateMoney} Taka is Donated for ${eventName}</h4>
-        <h2 class = "text-xl text-stone-500">Date: ${date}</h2> 
+        <h4 class = "lg:text-3xl text-base font-bold ">${donateMoney} Taka is Donated for ${eventName}</h4>
+        <h2 class = "lg:text-xl text-xs text-stone-500">Date: ${date}</h2> 
     `
 
     document.getElementById('history-section').appendChild(div);
@@ -102,8 +102,8 @@ document.getElementById('btn-donate-now-2').addEventListener('click' , function(
     const div = document.createElement('div');
     div.classList.add('card','bg-base-100','py-10','shadow-xl','flex-col' ,'justify-items-center','text-center','space-y-1.5');
     div.innerHTML=`
-        <h4 class = "text-3xl font-bold ">${donateMoney} Taka is Donated for ${eventName}</h4>
-        <h2 class = "text-xl text-stone-500">Date: ${date}</h2> 
+        <h4 class = "lg:text-3xl text-base font-bold ">${donateMoney} Taka is Donated for ${eventName}</h4>
+        <h2 class = "lg:text-xl text-xs text-stone-500">Date: ${date}</h2> 
     `
 
     document.getElementById('history-section').appendChild(div);
@@ -154,8 +154,8 @@ document.getElementById('btn-donate-now-3').addEventListener('click' , function(
     const div = document.createElement('div');
     div.classList.add('card','bg-base-100','py-10','shadow-xl','flex-col' ,'justify-items-center','text-center','space-y-1.5');
     div.innerHTML=`
-        <h4 class = "text-3xl font-bold ">${donateMoney} Taka is Donated for ${eventName}</h4>
-        <h2 class = "text-xl text-stone-500">Date: ${date}</h2> 
+        <h4 class = "lg:text-3xl text-base font-bold ">${donateMoney} Taka is Donated for ${eventName}</h4>
+        <h2 class = "lg:text-xl text-sm text-stone-500">Date: ${date}</h2> 
     `
 
     document.getElementById('history-section').appendChild(div);
